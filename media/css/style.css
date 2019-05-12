@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Fira+Mono|Ubuntu');
+
+
+body {
+	background-color: #CCCCCC;
+	color: #333;
+	font-family: "Comfortaa";
+	user-select: none;
+	cursor: default;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Comfortaa";
+	margin: 60px 70px 100px 70px;
+}
+
+input {
+	background-color: #FFF;
+	border: none;
+	border-radius: 5px;
+	background-color: #FFF;
+	outline: none;
+	margin-bottom: 36px;
+	padding: 8px 12px;
+}
+
+label {
+	display: inline-block;
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 0 16px;
+}
+
+.echo_names_container {
+	margin: 30px 0 50px 0;
+}
+
+.echo_names {
+	margin: 9px 0 9px 0;
+}
+
+.echo_name {
+	background-color: #8BA5BA;
+	border-radius: 6px;
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 15px;
+	padding: 3px 6px;
+}
+
+.fa-times {
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.fa-times:hover {
+	color: #CD2626;
+}
+
+.add_btn,
+.generate_btn {
+	width: 120px;
+	background-color: #2E6FA7;
+	color: white;
+	font-family: "Ubuntu";
+	font-size: 14px;
+	border: 1px solid #245580;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 12px;
+	padding: 8px 11px;
+}
+
+.add_btn:hover,
+.generate_btn:hover {
+	background-color: #265A88;
+}
+
+.fa-plus {
+	margin-left: 43px;
+}
+
+.fa-repeat {
+	margin-left: 9px;
+}
+
+#write {
+	display: none;
+	background-color: white;
+	border: 1px solid #C6C6C6;
+	border-radius: 8px;
+	max-width: 800px;
+	text-align: left;
+	font-family: "Ubuntu";
+	font-size: 20px;
+	user-select: text;
+	cursor: text;
+	margin: 50px 30px 30px 30px;
+}
+
+#sentence_1,
+#sentence_2 {
+	padding: 30px 30px 0 30px;
+}
+
+#sentence_3 {
+	padding: 30px;
+}
+
+.content {
+	min-height: calc(100vh - 80px);
+}
+
+footer {
+	font-family: "Ubuntu";
+	font-size: 14px;
+	margin: 70px 0 15px 0;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Configure -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KRP</title>
+	<link rel="icon" type="image/png" href="media/icon.png">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="media/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="media/css/style.css">
+</head>
+<body>
+	<center>
+		<div class="content">
+			<h1>
+				<em>Рандомні речення</em>
+			</h1>
+			<input type="text" placeholder="Ім'я">
+			<br>
+			<label>
+				<input id="male" type="radio" name="gender" checked>
+				Чол.
+			</label>
+			<label>
+				<input id="female" type="radio" name="gender">
+				Жін.
+			</label>
+			<label>
+				<input id="average" type="radio" name="gender">
+				Сер.
+			</label>
+			<label>
+				<input id="plural" type="radio" name="gender">
+				Мн.
+			</label>
+
+			<div class="echo_names_container"></div>
+
+			<div class="add_btn">
+				Додати
+				<i class="fa fa-plus"></i>
+			</div>
+			<div class="generate_btn">
+				Згенерувати
+				<i class="fa fa-repeat"></i>
+			</div>
+			<div id="write">
+				<em>
+					<div id="sentence_1"></div>
+					<div id="sentence_2"></div>
+					<div id="sentence_3"></div>
+				</em>
+			</div>
+		</div>
+		<footer>Creator - Bohdan Krupa (2017)</footer>
+	</center>
+
+	
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- JS -->
+	<script src="media/js/script.js"></script>
+</body>
+</html>
